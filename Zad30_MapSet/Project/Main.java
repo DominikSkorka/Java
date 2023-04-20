@@ -5,6 +5,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Map set");
         LinkedList<String> list = new LinkedList<>();
         list.add("Warsaw");
         list.add("Cracow");
