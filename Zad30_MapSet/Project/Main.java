@@ -10,6 +10,7 @@ public class Main {
         list.add("Cracow");
         list.add("Wroclaw");
         list.add("Wroclaw");
+             list.add("lubin");
         for(String  e : list){
             System.out.println(e);
         }
@@ -21,6 +22,7 @@ public class Main {
         map.put(1,"one");
         map.put(5,"five");
         map.put(9,"nine");
+         map.put(10,"ten");
         System.out.println();
         System.out.println(map.get(9));
 

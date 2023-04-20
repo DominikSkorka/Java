@@ -6,6 +6,7 @@ import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("collection list");
        Animal cat1 = new Animal("Stella");
        Animal cat2 = new Animal("Lucy");
        Animal cat3 = new Animal("Lily");
@@ -51,6 +52,7 @@ public class Main {
             System.out.println(((Animal)k).name);
         }
         System.out.println("------------------");
+
         System.out.println(list.size());
 
  //-------------------------------------------------------
